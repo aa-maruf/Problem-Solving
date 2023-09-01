@@ -1,10 +1,8 @@
-You are given an array a1,a2,…,an of pairwise distinct integers from 0 to n. Consider the following operation:
-
-consecutively for each i from 1 to n in this order, replace a[i] with MEX(a1,a2,…,an).</br>
-Here MEX of a collection of integers c1,c2,…,cm is defined as the smallest non-negative integer x which does not occur in the collection c. For example, MEX(0,2,2,1,4)=3
- and MEX(1,2)=0.
-
-Print the array after applying k such operations.
+>    You are given an array a1,a2,…,an of pairwise distinct integers from 0 to n. Consider the following operation:</br>
+    consecutively for each i from 1 to n in this order, replace a[i] with MEX(a1,a2,…,an).</br>
+    Here MEX of a collection of integers c1,c2,…,cm is defined as the smallest non-negative integer x which does not occur in the collection c. For example, MEX(0,2,2,1,4)=3
+    and MEX(1,2)=0. </br></br>
+    Print the array after applying k such operations.
 
 `Input`</br>
 Each test contains multiple test cases. The first line contains the number of test cases t
