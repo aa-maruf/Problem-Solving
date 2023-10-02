@@ -3,7 +3,7 @@
 - The use of turn varible for swapping element was new thing to learn.
 
 ## Problem Statement :
-![B. Jellyfish and Game](/Codeforces/Assets/image.png)
+![B. Jellyfish and Game](/Codeforces/Assets/B.%20Jellyfish%20and%20Game.png)
 
 ### Problem link:
 - [B. Jellyfish and Game](https://codeforces.com/problemset/problem/1875/B)
@@ -76,32 +76,6 @@ void solve() {
             }
             cout << ans << endl;      
 }
-
-
-int main() {
-
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-
-    #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
-    #endif
-
-    clock_t z = clock();
-    
-
-    int t = 1;
-    cin >> t;
-
-    while (t--) {
-        solve();
-    }
-
-    cerr << endl << "Run Time : " << ((double)(clock() - z) / CLOCKS_PER_SEC);
-
-    return 0;
-}
-
 ```
 
 ## Resource :
