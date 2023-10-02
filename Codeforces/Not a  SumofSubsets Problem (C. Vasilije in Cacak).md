@@ -5,7 +5,7 @@
 ![C. Vasilije in Cacak](/Codeforces/Assets/C.%20Vasilije%20in%20Cacak.png)
 
 ## Problem link :
-- [C. Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C)
+- [C. Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C)
 
 ## Solution : 
 ```c++
