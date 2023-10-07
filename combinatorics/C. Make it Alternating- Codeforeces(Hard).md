@@ -1,6 +1,6 @@
 # Problem Statement:
 
-![C. Make it Alternating](/combinatorics/Assets/image.png)
+![C. Make it Alternating](/combinatorics/Assets/C.%20Make%20it%20Alternating.png)
 
 
 # Solution :
@@ -8,31 +8,12 @@
 ```c++
     
 #include <bits/stdc++.h>
-#ifndef ONLINE_JUDGE
-    #include "DEBUG.h"
-#else
-    #define debug(x)
-    #define bug(...)
-#endif
-
 
 #define endl  "\n"
 
 using namespace std;
 
 using ll = long long;
-
-ll fact (ll x) {
-    ll ans = 1;
-    bug(x);
-    while (x){
-        ans *= x;
-        x--;
-    }
-    bug(ans);
-    return ans;
-}
-
 
 void solve() {
            string s;
@@ -63,32 +44,6 @@ void solve() {
             cout << min_operation<< " "<<seq <<endl;
            
 }
-
-
-int main() {
-
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-
-    #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
-    #endif
-
-    clock_t z = clock();
-    /// CODE-------------
-
-    int t = 1;
-    cin >> t;
-
-    while (t--) {
-        solve();
-    }
-
-    cerr << endl << "Run Time : " << ((double)(clock() - z) / CLOCKS_PER_SEC);
-
-    return 0;
-}
-
 
 ```
 
