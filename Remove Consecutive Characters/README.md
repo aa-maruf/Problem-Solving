@@ -1,7 +1,9 @@
 ## Problem links: 
 - [Remove Consecutive Characters](https://practice.geeksforgeeks.org/problems/consecutive-elements2306/1)
 - [A. Is It a Cat? - Codeforces](https://codeforces.com/contest/1800/problem/A)
-
+- [1047. Remove All Adjacent Duplicates In String - Leetcode (easy)](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+  - [2390. Removing Stars From a String - Leetcode Medium](https://leetcode.com/problems/removing-stars-from-a-string/)
+- [1209. Remove All Adjacent Duplicates in String II - Leetcode Medium](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 ## Problem Statement:
 Given a string S. For each index i(1<=i<=N-1), erase it if s[i] is equal to s[i-1] in the string.
@@ -71,6 +73,9 @@ class Solution{
     }
 };
 ```
+
+Reference :
+- Solution -3 approach is the modifies approach of []
 
 
  
