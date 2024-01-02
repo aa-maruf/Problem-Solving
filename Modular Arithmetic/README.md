@@ -36,4 +36,25 @@ long long int customPow (long long int base, long long int exponent, long long i
         return (p%2)?(t * b)%m : t;
     }
   ```
+
+### A function to return the GCD of two numbers
+```c++
+ll gcd(ll a, ll b) {
+    if (b == 0) {
+    return a;
+    }
+    return gcd(b, a % b);
+}
+
+```
+
+### A function to return the LCM of two numbers
+```c++
+ll lcm(ll a, ll b) {
+  return (a * b) / gcd(a, b);
+}
+```
+
+
+
   
