@@ -1,0 +1,143 @@
+## Problem Statement:
+Given an integer array nums, return the length of the longest strictly increasing 
+subsequence.
+
+Example 1:
+```text
+Input: nums = [10,9,2,5,3,7,101,18]
+
+Output: 4
+```
+`Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.`
+
+```text
+Example 2:
+
+Input: nums = [0,1,0,3,2,3]
+
+Output: 4
+```
+
+```text
+Example 3:
+
+Input: nums = [7,7,7,7,7,7,7]
+
+Output: 1
+ ```
+
+Constraints:
+
+$$ 1 <= nums.length <= 2500 $$
+$$ -10^{4} <= nums[i] <= 10^{4} $$
+ 
+
+`Follow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?`
+
+## Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+
+## Approach
+<!-- Describe your approach to solving the problem. -->
+
+
+## Solutions:
+- ### Code -1
+```c++  
+// LUV 
+class Solution {
+public:
+    vector<int> dp;
+    int lis (vector<int>& nums, int idx) {
+        // Base case
+        if (idx == nums.size())
+            return 0;
+        if (dp[idx] != -1)
+            return dp[idx];
+        int ans = 1;
+        for (int i = 0; i < idx; i++) {
+            if (nums[idx] > nums[i])
+                ans = max (ans, lis(nums, i) + 1);
+        }
+        return dp[idx] = ans;
+    }
+    int lengthOfLIS(vector<int>& nums) {
+        int ans = 1;
+        dp.resize(nums.size(), -1);
+        for (int i = 0; i < nums.size(); i++) {
+            ans = max (ans ,lis (nums, i));
+        }
+        return ans;
+    }
+};
+```
+
+- ### Code - 2
+```c++
+// top down
+class Solution {
+public:
+    int n;
+    int dp [2501][2501];
+    int lis (vector<int>&nums, int idx, int P) {
+        if (idx >= n) return 0;
+
+        if (P != -1 && dp[P][idx] != -1)
+            return dp[P][idx];
+        int taken = 0, skip;
+        if (P == -1 || nums[idx] > nums[P])
+            taken = 1 + lis(nums, idx + 1 , idx);
+        skip = lis (nums, idx + 1, P);
+
+        if (P != -1)
+            dp[P][idx] = max (taken , skip);
+
+        return max (taken , skip);
+    }
+    int lengthOfLIS(vector<int>& nums) {
+        n = nums.size();
+        memset (dp, -1, sizeof(dp));
+        return lis (nums, 0, -1);
+    }
+};
+
+```
+- ### Code - 3
+```c++
+
+// Bottom up - similar to solution -1 [LUV's solution]
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n, 1);
+        for (auto x : dp) cout<<x << " "; cout << endl;
+        int maxLIS = 1;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i])
+                    dp[i] = max (dp[j] + 1, dp[i]);
+                    maxLIS = max (maxLIS, dp[i]);
+            }
+        }
+        return maxLIS;
+    }
+};
+```
+
+- ### Code - 4
+```c++
+/* Lazy sorting approach will be added
+https://www.youtube.com/watch?v=dWmh3O8uX8A&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt
+*/
+```
+
+## Problem links:
+- [Longest Increasing Subsequence - Leetcode](https://leetcode.com/problems/longest-increasing-subsequence/?envType=daily-question&envId=2024-01-05)
+
+## Resources:
+- [Code - 1](https://www.youtube.com/watch?v=mNrzyuus2h4)
+- [Code -2](https://www.youtube.com/watch?v=DG50PJIx2SM&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt)
+- [Code -3](https://www.youtube.com/watch?v=h9rm4N8XbL0&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt)
+- [Code - 4](https://www.youtube.com/watch?v=dWmh3O8uX8A&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt)
+- [More Solutions - Github](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Increasing%20Subsequence.cpp)
