@@ -1,5 +1,5 @@
 ## Problem Statement :
-![C. Best Binary String](/Constructive%20Algorithm/Assets/C.%20Best%20Binary%20String.png)
+![C. Best Binary String](/codeforces/Constructive%20Algorithm/Assets/C.%20Best%20Binary%20String.png)
 
 ## Problem link:
 [C. Best Binary String](https://codeforces.com/contest/1837/problem/C)

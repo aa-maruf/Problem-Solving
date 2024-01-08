@@ -1,5 +1,5 @@
 ## Problem Statement:
-![B. Optimal Reduction](/Constructive%20Algorithm/Assets/B.%20Optimal%20Reduction%20-Codeforces.png)
+![B. Optimal Reduction](/codeforces/Constructive%20Algorithm/Assets/B.%20Optimal%20Reduction%20-Codeforces.png)
 
 ## Resources:
 [Wrong submission](https://www.youtube.com/watch?v=Q-GFpOCTz0c&t=481s)

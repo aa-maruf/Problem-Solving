@@ -2,7 +2,7 @@
 - In constuctive algo problem, if the question asks you too form an array, then always search for a value as array element and then work with that to get other values of that array.
 
 ## Problems Statement:
-![B. Beautiful Array](/Constructive%20Algorithm/Assets/B.%20Beautiful%20Array%20-Codeforces.png)
+![B. Beautiful Array](/codeforces/Constructive%20Algorithm/Assets/B.%20Beautiful%20Array%20-Codeforces.png)
 
 ## Problem link :
 [B. Beautiful Array](https://codeforces.com/problemset/problem/1715/B)

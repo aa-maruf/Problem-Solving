@@ -1,5 +1,5 @@
 ## Problem Statement:
-![B. Koxia and Permutation](/Constructive%20Algorithm/Assets/B.%20Koxia%20and%20Permutation.png)
+![B. Koxia and Permutation](/codeforces/Constructive%20Algorithm/Assets/B.%20Koxia%20and%20Permutation.png)
 
 ## Problem link:
 [B. Koxia and Permutation](https://codeforces.com/problemset/problem/1770/B)
