@@ -55,6 +55,13 @@ ll lcm(ll a, ll b) {
 }
 ```
 
+### Basic Arithmetic:
+-  $$(a ~~~mod~~~ m)+(b ~~~mod~~~ m)  mod~~~ m ~~~= (a+b)~~~  mod~~~ m ~~~$$
+- $$(a ~~~mod~~~ m)−(b ~~~mod~~~ m)  ~~~mod~~~ m= (a−b ) ~~~mod~~~ m$$
+- $$(a ~~~mod~~~ m)⋅(b ~~~mod~~~ m)  ~~~mod~~~ m=a⋅b  ~~~mod~~~ m$$
+
+- [Solve This Problem - D. Divisible Pairs](/Modular%20Arithmetic/D.%20Divisible%20Pairs%20-%20codeforces.md)
+
 
 
   
