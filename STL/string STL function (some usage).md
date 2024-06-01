@@ -21,7 +21,7 @@
     int vowel = 0;
 
     for (auto &ch : str) {
-        if (string("aeiou).find(ch) + 1) {
+        if (string("aeiou").find(ch) + 1) {
             vowel++;
         }
     }
