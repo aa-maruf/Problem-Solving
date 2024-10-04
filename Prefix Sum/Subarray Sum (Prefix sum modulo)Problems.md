@@ -1,10 +1,16 @@
+### Prerequisite:
+> Hashing and modular problem [two sum problem for divisible by k]:
+> - https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/ 
+> - https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/
+
+
 ### [**560. Subarray Sum Equals K with explanation of nyc_coder**](https://leetcode.com/problems/subarray-sum-equals-k/discuss/867435/MATH-BEHIND-PREFIX-SUM-PYTHON-EASY-TO-UNDERSTAND)
 
 ![nyc_coder](/Prefix%20Sum/Assets/image-1.png "nyc_coder")
 ![nyc_coder](/Prefix%20Sum/Assets/image-2.png "nyc_coder")
 
 ```c++
-// try to do it without prefix sum
+// try to do it without prefix array
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -49,7 +55,7 @@ https://www.youtube.com/watch?v=7Xeorb721LQ
 
 
 ```c++
-// try to do it without prefix sum
+// try to do it without prefix array
 class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k) {
@@ -131,8 +137,14 @@ public:
 };
 ```
 
+### Prefix xor parity problem :
+> - https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+> - https://leetcode.com/problems/number-of-wonderful-substrings/ 
+> - https://leetcode.com/problems/find-longest-awesome-substring/
 
 
+### More problems:
+- https://leetcode.com/problems/contiguous-array/
 
 
 
