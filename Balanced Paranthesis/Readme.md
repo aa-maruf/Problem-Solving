@@ -1,6 +1,5 @@
 # Balanced Parentheses
 
-
 ### Using stack:
 Template :
 ```c++
@@ -15,7 +14,7 @@ Template :
          return st.empty();
 ```
 
-### Using space optimized stack:
+### Using space optimized stack (counter):
 
 ```c++
         int unbalanced = 0;
@@ -31,7 +30,30 @@ Template :
         return unbalanced == 0;
 ```
 
-> Note: This solution will only work when # of opening and closing braces are equal. Here unbalanced is the number of opening bracket. 
+> Note: This solution will only work when # of opening and closing braces are equal eg. `")("`, `"))(("` . Here unbalanced is the number of opening bracket. 
+> checks balanced or unbalanced.
+```cpp
+    // Modified counter
+    class Solution {
+    public:
+    int minAddToMakeValid(string s) {
+        int open = 0, close = 0;
+
+        for (auto &c : s) {
+            if (c == '(') {
+                open++;
+            } else { // c = ')'
+                if (open > 0) open--; // match "()"
+                else close++;         // no open braces left. only ')'
+            }
+        }
+
+        return open + close;
+    }
+```
+>Note: opening and closing braces doesn't need to be equal.
+> works for single braces. If there are multiple braces ([]{()}) then it will not work.
+>  Gives total number of unbalanced pair.
 
 ### [Two pointer :](https://leetcode.com/problems/valid-parenthesis-string/editorial/?envType=daily-question&envId=2024-04-07#approach-4-two-pointer)
 
@@ -58,7 +80,7 @@ bool checkValidString(string s) {
         return true;
     }
 ```
-> Note : this solution will only work for inputs containing only one type of braces. solve problem 4
+> Note : this solution will only work for inputs containing only one type of braces. (solve problem 4)
 > if there are multiple braces ([]{()}) then it will not work.
 > No. of opening and closing braces doesn't need to be equal.
 
@@ -79,7 +101,7 @@ bool checkValidString(string s) {
         return writeptr < 0;
     }
 ```
->> this work for multiple braces and # of opening & closing brackets doesn't matter.
+>> this works for multiple braces and # of opening & closing brackets don't matter.
 >> TC (0(n)) and SC (O(1))
 
 ### Problems:
@@ -87,6 +109,6 @@ bool checkValidString(string s) {
 - https://leetcode.com/problems/minimum-string-length-after-removing-substrings/
 - https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/
 - https://leetcode.com/problems/valid-parenthesis-string/ "two pointer"
-  
+- https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
 
