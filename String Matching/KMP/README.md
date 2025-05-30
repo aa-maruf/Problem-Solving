@@ -1,6 +1,7 @@
 # KMP string matching algorithm
+![KMP_CoderArmy](KMP_CoderArmy.png)
 
-TC : 0(m+n) m is the lenght of string and n is the lenght of pattern
+TC : 0(m+n) `m is the length of the string and n is the length of the pattern`  <br>
 SC : 0(m)
 
 ### Resources:
