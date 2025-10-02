@@ -1,4 +1,7 @@
-# while solving subarray problems check this conditions:
+### Problem List :
+https://www.geeksforgeeks.org/array-subarray-subsequence-and-subset/ 
+
+### while solving subarray problems check this conditions:
 - whether the given array of positive integers or not?
 - If both (pos + neg), then check whether the elements can be zero or not.
 ---

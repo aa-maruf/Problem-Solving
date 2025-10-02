@@ -141,3 +141,4 @@ https://www.youtube.com/watch?v=dWmh3O8uX8A&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0Sk
 - [Code -3](https://www.youtube.com/watch?v=h9rm4N8XbL0&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt)
 - [Code - 4](https://www.youtube.com/watch?v=dWmh3O8uX8A&list=PLpIkg8OmuX-JhFpkhgrAwZRtukO0SkwAt)
 - [More Solutions - Github](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Increasing%20Subsequence.cpp)
+- [variants of LIS - 1671. Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array)

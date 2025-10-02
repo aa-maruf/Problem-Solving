@@ -123,3 +123,4 @@ public:
 
 ## Similar Problem:
 - [300. Longest Increasing Subsequence - Leetcode(Medium)](/Dp/Longest%20Increasing%20Subsequence-%20Leetcode%20(Medium))
+- [1671. Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array)

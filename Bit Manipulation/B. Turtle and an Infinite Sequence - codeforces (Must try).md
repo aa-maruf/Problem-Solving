@@ -6,7 +6,7 @@
 
 
 There is a sequence 
-$$a_0, a_1, a_2, \ldots$$ 
+$$a_0, a_1, a_2, \dots$$ 
 of infinite length. Initially a<sub>i</sub> = i for every non-negative integer `i`. After every second, each element of the sequence will simultaneously change. a<sub>i</sub> will change to 
 $$a_{i-1} | a_i | a_{i+1}$$ 
 for every positive integer `i`.a<sub>0</sub> will change to a<sub>0</sub> | a<sub>1</sub>. Here, `|` denotes bitwise OR.
@@ -19,7 +19,7 @@ He is tired of calculating so many values, so please help him!
 
 Each test contains multiple test cases. The first line contains the number of test cases 
 $$t (1 \leq t \leq 10^4)$$
-. The description of the test cases follows.
+The description of the test cases follows.
 
 The first line of each test case contains two integers 
 $$ n, m (0 <= n, m <= 10^9) $$
