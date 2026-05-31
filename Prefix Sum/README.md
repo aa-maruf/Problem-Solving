@@ -7,3 +7,4 @@
 |Minimum Toggle to Partition| GFG| [Link](https://www.geeksforgeeks.org/problems/minimum-toogles-to-partition0135/1)|`Must Try`
 |Wifi Range|GFG|[Link](https://www.geeksforgeeks.org/problems/wifi-range--170647/1)|`Solve with difference array too`|
 
+
