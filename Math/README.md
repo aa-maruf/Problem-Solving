@@ -15,7 +15,7 @@ A curated collection of mathematical problem-solving topics including algebra, g
 
 ---
 
-## Problem Breakdown
+<!-- ## Problem Breakdown
 
 ### By Type
 
@@ -61,6 +61,7 @@ A curated collection of mathematical problem-solving topics including algebra, g
 1. **Start with Easy Problems** → Build foundational understanding
 2. **Solve by Type** → Deepen expertise in specific areas
 3. **Study the Logic** → Understand the mathematical insights
-4. **Analyze Complexity** → Learn time/space optimization techniques
+4. **Analyze Complexity** → Learn time/space optimization techniques 
 
 ---
+-->
