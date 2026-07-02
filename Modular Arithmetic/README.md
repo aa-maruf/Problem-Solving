@@ -65,5 +65,17 @@ ll lcm(ll a, ll b) {
 - [Solve This Problem - D. Divisible Pairs](/Modular%20Arithmetic/D.%20Divisible%20Pairs%20-%20codeforces.md)
 
 
+## Problems
+| # | Problem Name | Code | Platform | Difficulty |
+|---|---|---|---|---|
+|1| [2961. Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) | [Code](./2961.%20Double%20Modular%20Exponentiation.md)| LC| | 
+|2| [D. Divisible Pairs](https://codeforces.com/contest/1931/problem/D)| [Code](./D.%20Divisible%20Pairs%20-%20codeforces.md)|CF| |
+|3|[974. Subarray Sums Divisible by K - Leetcode](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)| [Code](./974.%20Subarray%20Sums%20Divisible%20by%20K.md)|LC|Medium|
+|4| [Check Subset sum divisible by k -GeeksofrGeeks](https://www.geeksforgeeks.org/problems/subset-with-sum-divisible-by-m2546/1)| [Code](./Check%20Subset%20sum%20divisible%20by%20k.md)|GFG|Medium|
+
+
+
+
+
 
   
