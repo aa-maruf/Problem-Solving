@@ -1,4 +1,6 @@
 
+#### Also Try This Number Theory Problem: [2241B - Good times Good times](https://codeforces.com/contest/2241/problem/B)
+
 # Concept - 1
 
 ## 🔹 Problem (in simple words)

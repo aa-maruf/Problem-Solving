@@ -10,11 +10,13 @@ A curated collection of mathematical problem-solving topics including algebra, g
 |---|---|---|---|---|---|---|
 | 1 | [Min Steps](https://www.codechef.com/problems/MINST) | [Code](./Min%20Steps.md) | CodeChef | Medium | Algebra | Dynamic Programming, Binary Representation, Number Theory |
 |2|[Omsk Programmers](https://codeforces.com/contest/2236/problem/C)|[Code](Omsk%20Programmers.md) |Codeforces| Easy| Math | Mathematical Greedy|
-| 3 | [Divisibility Trick](https://codeforces.com/problemset/gymProblem/104772/D) | [Code](./divisibility%20trick.md) | CF | Easy | Number Theory | Divisibility, Modular Arithmetic |
+| 3 | [Divisibility Trick](https://codeforces.com/problemset/gymProblem/104772/D) | [Code](./divisibility%20trick.md) | CF | Easy | Number Theory | Divisibility, Number Theory, BFS|
 | 4 | [Express as Consecutive Number Sum](https://www.geeksforgeeks.org/problems/consecutive-numbers-for-sum3132/1)|[Code](./Express%20as%20Consecutive%20Number%20Sum.md) | GeeksforGeeks | Easy | Algebra | Arithmetic Series, Consecutive Sequences, Divisibility |
 | 5 | [Two Rings](./Two%20Rings.md) |[Code](./Two%20Rings.md)|AtCoder | Easy | Geometry | Circle Intersection, Distance Formula, Geometry |
 | 6 | [max-rope-cutting](https://www.geeksforgeeks.org/problems/max-rope-cutting1312/1)| [Code](./max-rope-cutting.md)|GFG| Easy| Basic Math| Mathematical greedy|
-|7|[Ways to Tile the Floor](https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles0509/1)| [Code](./count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles.md)|GFG| Easy| Combinatorics| `DP, Factorial, Combination`
+|7|[Ways to Tile the Floor](https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles0509/1)| [Code](./count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles.md)|GFG| Easy| Combinatorics| `DP, Factorial, Combination`|
+|8|[2241B - Good times Good times](https://codeforces.com/contest/2241/problem/B)|[Code](./2241B%20-%20Good%20times%20Good%20time.md)|Codeforces| Easy| Number Theory | Divisibility, Number Theory|
+
 
 ---
 
