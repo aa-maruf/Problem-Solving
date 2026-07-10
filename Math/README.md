@@ -16,8 +16,7 @@ A curated collection of mathematical problem-solving topics including algebra, g
 | 6 | [max-rope-cutting](https://www.geeksforgeeks.org/problems/max-rope-cutting1312/1)| [Code](./max-rope-cutting.md)|GFG| Easy| Basic Math| Mathematical greedy|
 |7|[Ways to Tile the Floor](https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles0509/1)| [Code](./count-the-number-of-ways-to-tile-the-floor-of-size-n-x-m-using-1-x-m-size-tiles.md)|GFG| Easy| Combinatorics| `DP, Factorial, Combination`|
 |8|[2241B - Good times Good times](https://codeforces.com/contest/2241/problem/B)|[Code](./2241B%20-%20Good%20times%20Good%20time.md)|Codeforces| Easy| Number Theory | Divisibility, Number Theory|
-
-
+|9|[Ways to Express as Sum of Consecutives](https://www.geeksforgeeks.org/problems/count-of-sum-of-consecutives3741/1)|[code](./Ways%20to%20Express%20as%20Sum%20of%20Consecutives.md)|GFG| Medium| Math| Arithmetic Series, Consecutive Sequences|
 ---
 
 <!-- ## Problem Breakdown
